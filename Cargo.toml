@@ -1,7 +1,11 @@
 [package]
-name = "aj_rs"
+name = "aojia"
 version = "0.1.0"
 edition = "2024"
+
+[lib]
+name = "aojia"
+path = "src/lib.rs"
 
 [dependencies]
 windows = { version = "0.61", features = [

@@ -5,7 +5,7 @@
 ## 使用方式
 
 1. 将 dlls 目录下的 dll 拷贝到 exe 程序同级目录
-2. `cargo run` 可输出插件版本号
+2. `cargo run --example main` 可检查插件输出信息
 
 ## 声明
 

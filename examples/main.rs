@@ -1,4 +1,4 @@
-use aj_rs::ao_jia::*;
+use aojia::*;
 
 fn main() {
     let aojia = AoJia::new_with_path(String::from("ARegJ64.dll"), String::from("AoJia64.dll")).unwrap();
@@ -15,3 +15,4 @@ fn main() {
     let ret = aojia.GetOs(&mut v, &mut vn, &mut vbn, &mut dir, 0).unwrap();
     println!("GetOs ret: {}, v: {}, vn: {}, vbn: {}, dir: {}", ret, v, vn, vbn, dir);
 }
+
