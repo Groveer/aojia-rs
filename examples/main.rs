@@ -14,5 +14,12 @@ fn main() {
 
     let ret = aojia.GetOs(&mut v, &mut vn, &mut vbn, &mut dir, 0).unwrap();
     println!("GetOs ret: {}, v: {}, vn: {}, vbn: {}, dir: {}", ret, v, vn, vbn, dir);
+
+    let mut ty = String::new();
+    let mut id = String::new();
+
+    let ret = aojia.GetCPU(&mut ty, &mut id).unwrap();
+    println!("GetCPU ret: {}, ty: {}, id: {}", ret, ty, id);
+
 }
 
